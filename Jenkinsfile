@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-user-pass')
-        IMAGE_NAME = "devopssteps/myapp-20a"
+        IMAGE_NAME = "devopssteps/myapp-20A"
     }
 
     stages {
